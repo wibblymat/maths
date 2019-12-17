@@ -1,0 +1,25 @@
+{
+  "name": "@wibblymat/maths",
+  "version": "1.0.0",
+  "description": "A collection of maths helpers, generally aimed at games",
+  "main": "dist/maths.js",
+  "types": "dist/maths.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "prepublish": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wibblymat/maths.git"
+  },
+  "author": "Mat Scales",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/wibblymat/maths/issues"
+  },
+  "homepage": "https://github.com/wibblymat/maths#readme",
+  "devDependencies": {
+    "typescript": "^3.7.3"
+  }
+}
